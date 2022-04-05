@@ -1,12 +1,7 @@
 import math
 
-# n > k
-i = 0
-
 
 def bc(n, k):
-    global i
-    print(f"loop {i}")
     if k == n or k == 0:
         return 1
 
